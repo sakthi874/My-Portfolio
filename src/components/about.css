@@ -1,0 +1,29 @@
+
+.about-section {
+ margin-left: 350px;  
+  margin-right:auto;
+  padding: 60px 40px;
+  max-width: 900px;
+        margin-bottom: 60px;       
+             font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+              color:rgb(225, 218, 231);    }
+              section, #about {
+  scroll-margin-top: 100px;
+}
+
+/* HEADING */
+.about-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* TEXT */
+.about-section p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}

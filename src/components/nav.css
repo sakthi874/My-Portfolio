@@ -1,0 +1,76 @@
+/* NAVBAR BACKGROUND */
+.top-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:black;
+  padding: 15px 0;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  cursor: pointer;   /* 👈 shows it's clickable */
+  color: white;      /* or your color */
+  text-decoration: none;
+}
+/* ITEM */
+.nav-item {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* ICON BASE */
+.nav-icon {
+ padding: 15px;
+   backdrop-filter: blur(10px);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin: auto;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+
+
+/* TEXT */
+.nav-item span {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+/* HOVER EFFECT */
+.nav-item:hover {
+  transform: translateY(-5px);
+
+}
+
+.nav-item:hover .nav-icon {
+  transform: scale(1.1);
+      background: linear-gradient(135deg, #6a0dad, #452c5c);
+
+
+}
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}

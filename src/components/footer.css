@@ -1,0 +1,41 @@
+.footer {
+  margin-left: 350px;   /* align with your layout */
+  padding: 30px 40px;
+  text-align: center;
+  color: rgb(225, 218, 231);
+
+  background:transparent !important;   /* 🔥 FORCE REMOVE WHITE */
+  backdrop-filter: blur(10px);
+
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+/* TITLE */
+.footer h3 {
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.footer p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* LINKS */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.footer-links a:hover {
+  color: #6a0dad;
+}
