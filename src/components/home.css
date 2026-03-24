@@ -68,3 +68,35 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* Keep your existing styles above */
+
+/* Sidebar hidden by default on mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .profile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    padding: 20px;
+    border-radius: 0; /* full-height sidebar */
+    text-align: center;
+    transform: translateX(100%); /* hidden off-screen */
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
+
+  .profile.open {
+    transform: translateX(0); /* slide in */
+  }
+
+  .content {
+    order: 1;
+    width: 100%;
+  }
+}
