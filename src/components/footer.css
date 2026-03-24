@@ -39,3 +39,16 @@
 .footer-links a:hover {
   color: #6a0dad;
 }
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .footer-tagline {
+    font-size: 0.9rem;
+  }
+  .footer-copy {
+    font-size: 0.7rem;
+  }
+}
