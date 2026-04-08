@@ -9,7 +9,7 @@
   align-items: center;
   background:black;
   padding: 15px 0;
-  border-bottom: 2px solid rgba(255,255,255,0.2);
+  border-bottom: 2px solid rgba(236, 230, 230, 0.2);
 }
 html {
   scroll-behavior: smooth;
@@ -48,6 +48,12 @@ html {
 .nav-item span {
   font-size: 12px;
   letter-spacing: 1px;
+  
+}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 /* HOVER EFFECT */
@@ -59,8 +65,10 @@ html {
 .nav-item:hover .nav-icon {
   transform: scale(1.1);
       background: linear-gradient(135deg, #6a0dad, #452c5c);
-
-
+      color:white;
+}
+.nav-item:hover .nav-icon a {
+  color: white;
 }
 /* RESPONSIVE */
 @media (max-width: 900px) {

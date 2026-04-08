@@ -16,14 +16,15 @@ function Navbar() {
         <div className="nav-icon"><a href="#about">ABOUT</a></div>
        
       </div>
-<div className="nav-item">
+      <div className="nav-item">
         <div className="nav-icon"><a href="#skills">SKILLS</a></div>
         
       </div>
-      <div className="nav-item">
+       <div className="nav-item">
         <div className="nav-icon"><a href="#projects">PROJECTS</a></div>
       </div>
-      <div className="nav-item">
+
+       <div className="nav-item">
         <div className="nav-icon"><a href="#Academics">ACADEMICS</a></div>
        
       </div>
@@ -32,7 +33,6 @@ function Navbar() {
       </div>
       <div className="nav-item">
         <div className="nav-icon"><a href="#interests">INTERESTS & STRENGTH</a></div>
-        
       </div>
       <div className="nav-item">
         <div className="nav-icon"><a href="#contact">CONTACT ME</a></div>
