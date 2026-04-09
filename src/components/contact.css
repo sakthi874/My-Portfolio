@@ -46,6 +46,14 @@ input, textarea {
   font-size: 1rem;
   width: 100%;
 }
+ #contact .message {
+  background: #dedee3;
+  color: #000000;
+}
+#contact .message:hover {
+  background: linear-gradient(to right, #a056de, #141414);
+  color: #fff;
+}
 
 button {
   background: #9268e5;
