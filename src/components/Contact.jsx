@@ -65,7 +65,7 @@ function Contact() {
           onChange={(e) => setForm({...form, message: e.target.value})}
         ></textarea>
 
-        <button type="submit">Send Message</button>
+        <button type="submit"className='message'>Send Message</button>
       </form>
 
       {/* ✅ SUCCESS POPUP */}
