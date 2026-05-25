@@ -1,5 +1,10 @@
 /* NAVBAR BACKGROUND */
 .top-navbar {
+  h1 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+  }
   position: fixed;
   top: 0;
   left: 0;

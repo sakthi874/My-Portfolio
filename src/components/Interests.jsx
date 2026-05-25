@@ -1,7 +1,6 @@
 import './interest.css';
 function Interests() {
   const interests = [
-    "Designing in Canva & Figma 🎨",
     "Seminars & Public Speaking 🎤",
     "Learning New Topics 📚",
     "Preparing Presentations 📊",
@@ -9,8 +8,8 @@ function Interests() {
     "Crafting 🧵",
     "Editing ✂️",
     "Adaptability  🔄",
-    "Creativity  💡",
-    "Cooking 🍳"
+    "Creativity  💡"
+    
   ];
 
   return (

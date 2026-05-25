@@ -1,7 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: #111;
+  color: rgb(225, 218, 231);
+}
+
+/* Sidebar */
 .sidebar {
-  position: fixed;      /* stays in place */
+  position: fixed;
   left: 0;
-  top: 80px;            /* below navbar */
+  top: 80px; /* below navbar */
   width: 300px;
   height: 100%;
   background: transparent;
@@ -11,52 +19,82 @@
   border-right: 2px solid rgba(255,255,255,0.2);
 }
 
-/* PROFILE IMAGE */
-.profile-img {
-  width: 140px;
-  height: 140px;
+/* Gradient border wrapper */
+.profile-pic-wrapper {
+  display: inline-block;
+  padding: 4px;
   border-radius: 50%;
-  border: 4px ;
-  border-color : linear-gradient(135deg, #6a0dad, #452c5c);
-  object-fit : cover;
-  margin-bottom : 15px;
+  background: linear-gradient(135deg, #6a0dad, #452c5c);
+  margin-bottom: 15px;
 }
 
-/* NAME */
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+/* Name */
 .sidebar h2 {
   margin: 10px 0;
 }
+.resume-btn {
+ background: linear-gradient(90deg, #a020f0, #ffcc00);
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(128,0,128,0.6); /* purple glow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
 
-/* INFO */
+.resume-btn:hover {
+  
+  transform: scale(1.05);
+  box-shadow: 
+    0 0 10px rgba(106, 13, 173, 0.6),
+    0 0 20px rgba(143, 87, 183, 0.5),
+    0 0 40px rgba(173, 114, 215, 0.4);
+}
+
+/* Info */
 .info p {
   font-size: 14px;
-    margin: 5px 0;
+  margin: 5px 0;
 }
+.social-links {
+  display: flex;              /* side by side */
+  justify-content: center;    /* center horizontally */
+  gap: 20px;                  /* spacing between icons */
+  margin-top: 15px;
+}
+
+.social-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+
+/* Home section */
 #home {
-             padding: 40px;
-             font-family: 'Times New Roman', Times, serif;
-                
-              color:rgb(225, 218, 231); 
-              margin-left: 350px;
-            max-width: 1500px;  
-
+  padding: 40px;
+  margin-left: 350px; /* space for sidebar */
+  max-width: 1500px;
 }
 
+/* Responsive projects grid (if you add later) */
+.projects-container {
+  display: grid;
+  grid-gap: 20px;
+}
 
-body {
-  background: transparent;
-}
-.profile-pic {
-    display: block;
-  margin: 20px auto;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%; /* makes it circular */
-  object-fit: cover;  /* keeps aspect ratio */
-  margin-top: 1.5rem;
-  border-color : linear-gradient(135deg, #6a0dad, #452c5c);   
-}
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .projects-container {
     grid-template-columns: repeat(2, 1fr);
@@ -68,15 +106,10 @@ body {
     grid-template-columns: 1fr;
   }
 }
-/* Keep your existing styles above */
 
-/* Sidebar hidden by default on mobile */
+/* Responsive sidebar for mobile */
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .profile {
+  .sidebar {
     position: fixed;
     top: 0;
     right: 0;
@@ -84,19 +117,18 @@ body {
     height: 100%;
     background: #333;
     padding: 20px;
-    border-radius: 0; /* full-height sidebar */
     text-align: center;
-    transform: translateX(100%); /* hidden off-screen */
+    transform: translateX(100%); /* hidden */
     transition: transform 0.3s ease;
     z-index: 1000;
   }
 
-  .profile.open {
+  .sidebar.open {
     transform: translateX(0); /* slide in */
   }
 
-  .content {
-    order: 1;
-    width: 100%;
+  #home {
+    margin-left: 0; /* reset margin */
+    padding: 20px;
   }
 }

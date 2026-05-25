@@ -6,8 +6,8 @@ function Academics() {
            <br></br>
             <div >
                 <div className="Academics-item" >
-                    <h3>Master of Computer Applications (MCA)     |  83%   </h3>
-                    <p >kalasalingam Academy of Research and Education | Pursuing</p>
+                    <h3>Master of Computer Applications (MCA)     |  90.7%   </h3>
+                    <p >kalasalingam Academy of Research and Education | 2024-2026</p>
                 </div>
                 <div className="Academics-item" >
                     <h3 >Bachelor of Computer Applications (BCA)   |  80.9%</h3>

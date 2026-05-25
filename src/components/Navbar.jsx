@@ -9,7 +9,7 @@ function Navbar() {
     section.scrollIntoView({ behavior: "smooth" });
   }
 }}>
-  SAKTHI
+  MY  PORTFOLIO
 </h1>
       
       <div className="nav-item">
