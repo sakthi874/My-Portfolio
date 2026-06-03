@@ -88,7 +88,6 @@ function Skills() {
           <div className="progress-bar"><div className="progress" style={{width:`${js}%`}}>JavaScript {js}%</div></div>
           <div className="progress-bar"><div className="progress" style={{width:`${react}%`}}>React (Beginner) {react}%</div></div>
         </div>
-
         {/* Right: Developer Tools */}
         <div className="skill-category">
           <h3>Developer Tools</h3>
