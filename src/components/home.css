@@ -71,7 +71,6 @@ body {
   gap: 20px;                  /* spacing between icons */
   margin-top: 15px;
 }
-
 .social-icon {
   cursor: pointer;
   transition: transform 0.3s ease;

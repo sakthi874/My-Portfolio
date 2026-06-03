@@ -17,7 +17,6 @@ section {
 section.active {
   display: block;
 }
-
 /* HEADING */
 .about-section h2 {
   font-size: 30px;
@@ -26,7 +25,6 @@ section.active {
   display: inline-block;
   padding-bottom: 5px;
 }
-
 /* TEXT */
 .about-section p {
   font-size: 18px;

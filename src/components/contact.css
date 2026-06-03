@@ -95,7 +95,6 @@ button:hover {
     opacity: 1;
   }
 }
-
 /* 🔥 FADE OUT */
 @keyframes fadeOut {
   to {
