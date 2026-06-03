@@ -8,25 +8,19 @@ function Navbar() {
   if (section) {
     section.scrollIntoView({ behavior: "smooth" });
   }
-}}>
-  MY  PORTFOLIO
+}}> MY  PORTFOLIO
 </h1>
-      
       <div className="nav-item">
-        <div className="nav-icon"><a href="#about">ABOUT</a></div>
-       
+        <div className="nav-icon"><a href="#about">ABOUT</a></div>  
       </div>
       <div className="nav-item">
         <div className="nav-icon"><a href="#skills">SKILLS</a></div>
-        
       </div>
        <div className="nav-item">
         <div className="nav-icon"><a href="#projects">PROJECTS</a></div>
       </div>
-
        <div className="nav-item">
         <div className="nav-icon"><a href="#Academics">ACADEMICS</a></div>
-       
       </div>
       <div className="nav-item">
         <div className="nav-icon"><a href="#certifications">CERTIFICATIONS</a></div>  
@@ -36,7 +30,6 @@ function Navbar() {
       </div>
       <div className="nav-item">
         <div className="nav-icon"><a href="#contact">CONTACT ME</a></div>
-
       </div>
     </div>
   );

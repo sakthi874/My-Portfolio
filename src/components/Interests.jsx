@@ -14,7 +14,7 @@ function Interests() {
 
   return (
     <section id="interests">
-      <h2><u>Interests & Strength</u></h2>
+      <h2>Interests & Strengths</h2>
 
       <div className="interests-container">
         {interests.map((item, index) => (

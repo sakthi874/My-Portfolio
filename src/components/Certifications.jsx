@@ -21,7 +21,7 @@ function Certifications() {
 
   return (
     <section id="certifications">
-      <h2><u>Certifications</u></h2>
+      <h2>Certifications</h2>
       <p className="subtitle">
         Here are the certifications I earned while expanding my skills and knowledge.
       </p>

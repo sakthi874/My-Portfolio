@@ -2,7 +2,7 @@ import './academics.css';
 function Academics() {
     return (       
         <section id="Academics" >
-            <h2><u>Academics</u></h2>
+            <h2>Academics</h2>
            <br></br>
             <div >
                 <div className="Academics-item" >
