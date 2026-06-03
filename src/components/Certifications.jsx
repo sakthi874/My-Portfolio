@@ -7,7 +7,7 @@ function Certifications() {
     { title: "Data Analytics Internship", org: "DSP Office (Offline)", pdf: ["/certificates/data.pdf"] },
     { title: "Computer Office Automation (COA)", org: "Govt. Certification", pdf: ["/certificates/COA.pdf"] },
     { title: "Type Writing (Lower & Higher)", org: "Govt. Certification", pdf: ["/certificates/Typewriting.pdf"] },
-    { title: "Frontend development (HTML, CSS, JavaScript, React)", org: "LeSucess", pdf: ["/certificates/Frontend.pdf"] },
+    { title: "Frontend development (HTML, CSS, JS, React)", org: "LeSucess", pdf: ["/certificates/Frontend.pdf"] },
   ];
   return (
     <section id="certifications">
