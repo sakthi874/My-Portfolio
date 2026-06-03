@@ -77,7 +77,7 @@ function Skills() {
 
   return (
     <section id="skills" className="skills-section" ref={skillsRef}>
-      <h2><u>Skills</u></h2>
+      <h2>Skills</h2>
 
       <div className="skills-grid">
         {/* Left: Frontend */}
