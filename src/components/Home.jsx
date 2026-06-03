@@ -20,9 +20,10 @@ function Home() {
     <img src="/Github.png" alt="GitHub" className="social-icon" style={{ width: '40px', height: '40px' }} />
   </a>
 
-  <a href="mailto:srisakthidevi28@gmail.com">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" className="social-icon" style={{ width: '40px', height: '40px' }} />
-  </a>
+  <a href="mailto:srisakthidevi28@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Sakthi,%20I%20would%20like%20to%20connect%20with%20you.">
+  <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" className="social-icon" style={{ width: '40px', height: '40px' }} />
+</a>
+
 </div>
       </div>
 
