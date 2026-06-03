@@ -7,7 +7,6 @@ function Footer() {
 <br></br><br></br>
 <h3>  <cite>Aspiring  IT  Professional  passionate  about  Design,  Development  &  Creativity </cite></h3>
 <br></br>
-
 <div className="footer-links">
         <a href="#about">About |</a>
         <a href="#skills">Skills |</a>
