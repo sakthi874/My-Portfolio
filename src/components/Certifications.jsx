@@ -6,10 +6,9 @@ function Certifications() {
     { title: "Frontend - HTML", org: "Great Learning", pdf: ["/certificates/basics.pdf"] },
     { title: "Data Analytics Internship", org: "DSP Office (Offline)", pdf: ["/certificates/data.pdf"] },
     { title: "Computer Office Automation (COA)", org: "Govt. Certification", pdf: ["/certificates/COA.pdf"] },
-    { title: "Type Writing (Lower & Higher)", org: "Govt. Certification", pdf: ["/certificates/TypeWriting.pdf"] },
+    { title: "Type Writing (Lower & Higher)", org: "Govt. Certification", pdf: ["/certificates/Type writing.pdf"] },
     { title: "Frontend development (HTML, CSS, JavaScript, React)", org: "LeSucess", pdf: ["/certificates/Frontend.pdf"] },
   ];
-
   return (
     <section id="certifications">
       <h2>Certifications</h2>
