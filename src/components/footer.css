@@ -36,7 +36,7 @@
 }
 /* HOVER */
 .footer-links a:hover {
-  color: #6a0dad;
+  color: #e31963;
 }
 /* Responsive behavior */
 @media (max-width: 768px) {
