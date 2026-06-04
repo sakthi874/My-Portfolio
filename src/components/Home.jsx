@@ -31,7 +31,7 @@ function Home() {
         <div className="home-content">
           <h1>Hi, I'm S. Sakthi</h1>
           <h2><a href="#home"><u>Creative Designer & Frontend Developer</u></a></h2><br/>
-          <a  href="/RESUME.pdf"  target="_blank"  rel="noopener noreferrer">
+          <a  href="/word resume(3).pdf"  target="_blank"  rel="noopener noreferrer">
   <button className="resume-btn">Resume</button>
 </a>
 

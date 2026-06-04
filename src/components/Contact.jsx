@@ -88,7 +88,7 @@ function Contact() {
           GitHub
         </a> | 
 
-        <a href="/RESUME.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/word resume(3).pdf" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
       </div>
