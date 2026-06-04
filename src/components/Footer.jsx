@@ -17,7 +17,6 @@ function Footer() {
         <a href="#contact">Contact</a>
       </div></p>
       <p>© 2026 All Rights Reserved</p>
-
     </footer>
   );
 }
