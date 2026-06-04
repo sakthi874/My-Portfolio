@@ -11,8 +11,8 @@ function Footer() {
         <a href="#about">About |</a>
         <a href="#skills">Skills |</a>
         <a href="#projects">Projects |</a>
-        <a href="#Academics">Academics</a>
-        <a href="#Certifications"> | Certifications |</a>
+        <a href="#Academics">Academics |</a>
+        <a href="#Certifications"> Certifications |</a>
         <a href="#interests">Interests & Strength |</a>
         <a href="#contact">Contact</a>
       </div></p>
